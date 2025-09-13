@@ -1,0 +1,66 @@
+/* Garantir que o padding não ultrapasse a largura */
+.navbar {
+  width: 100%;
+  background-color: #000;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* Lista horizontal */
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+/* Estilo dos itens */
+.nav-list li {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Links e botões */
+.nav-list a,
+.nav-list button,
+.nav-list span {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover */
+.nav-list a:hover,
+.nav-list button:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .nav-list {
+    gap: 1rem;
+  }
+}
+
+/* Global fix para evitar scroll horizontal */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
