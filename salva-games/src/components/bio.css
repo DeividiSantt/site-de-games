@@ -1,0 +1,36 @@
+.bio-container {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  padding: 25px;
+}
+
+.bio-container h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.bio-container p {
+  margin: 0 0 0.75rem;
+}
+
+.bio-container ul {
+  margin: 0 0 0.75rem 1.1rem;
+  padding: 0;
+}
+
+.bio-container li {
+  margin-bottom: 0.4rem;
+}
+
+.destaque {
+  background: linear-gradient(90deg, #00ffff, #00cc66);
+  font-weight: bold;
+  padding: 0.1rem 0.25rem;
+  border-radius: 4px;
+  color: black;
+}
+
+
+
