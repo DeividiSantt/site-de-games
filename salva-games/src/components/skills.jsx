@@ -19,7 +19,8 @@ function Skills() {
           <li key={index}>
             <img src={tec.img} alt={tec.nome} />
             <span>{tec.nome}</span>
-          </li>
+          </li>  
+        
         ))}
       </ul>
     </section>

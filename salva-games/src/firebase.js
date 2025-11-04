@@ -4,14 +4,15 @@ import { getFirestore } from "firebase/firestore";
 
 // Configuração usando variáveis de ambiente
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyDY1GBXo4ReLho5vaXq9oftBSCFdRsoxMo",
+  authDomain: "gamezonedvz.firebaseapp.com",
+  projectId: "gamezonedvz",
+  storageBucket: "gamezonedvz.appspot.com",
+  messagingSenderId: "641555724886",
+  appId: "1:641555724886:web:7bca73f683513a85c759f7",
+  measurementId: "G-EFZ1EQX3CY"
 };
+
 
 // Inicialização do Firebase
 const app = initializeApp(firebaseConfig);
